@@ -19,6 +19,6 @@ export class MemberListResolver implements Resolve<User[]> {
 
                 return of(null);
             })
-        )
+        );
     }
 }
